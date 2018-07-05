@@ -42,5 +42,11 @@ public interface VetRepository extends Repository<Vet, Integer> {
     @Cacheable("vets")
     Collection<Vet> findAll() throws DataAccessException;
 
+    /**
+     * Save an {@link Vet} to the data store, either inserting or updating it.
+     * @param vet the {@link Vet} to save
+     */
+    void save(Vet vet);
+
 
 }

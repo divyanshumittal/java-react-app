@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+    padding: 20px;
 }
 
 .App-header {
@@ -18,5 +18,50 @@
 }
 
 .owner {
+    padding: 10px;
     border: 1px solid black;
+}
+
+.add-pet {
+    padding: 50px 100px;
+}
+
+.row {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pets-section {
+    padding: 10px 2px;
+}
+
+.add-btn {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.add-pet-form {
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.react-datepicker__time-list {
+    padding: 0;
+}
+
+.add-vet {
+    padding: 50px 100px;
+}
+
+.add-vet-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-vet-form input {
+    display: block;
 }

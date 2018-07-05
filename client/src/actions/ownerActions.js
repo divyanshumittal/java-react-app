@@ -1,14 +1,5 @@
 const API = "/petOwners/all";
 
- function getAllOwners() {
-    return fetch(API).then(response => {
-      return response.json();
-    }).catch(error => {
-      return error;
-    });
- }
-
-
 export function loadOwnersSuccess(owners) {
   return { type: 'LOAD_OWNERS_SUCCESS', owners };
 }
